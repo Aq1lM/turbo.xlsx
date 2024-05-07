@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>group.aist</groupId>
+    <artifactId>aist</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <directory>target</directory>
+    </build>
+    <name>First Maven Project</name>
+    <description>This is my first Maven project</description>
+
+    <organization>
+        <name>youtube</name>
+        <url>https://www.youtube.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Agil Mammadov</name>
+            <email>memmedovaqil202@gmail.com</email>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.21.1</version>
+        </dependency>
+
+    </dependencies>
+</project>
